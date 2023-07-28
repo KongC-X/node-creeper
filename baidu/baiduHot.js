@@ -23,7 +23,7 @@ https.get(url,{ rejectUnauthorized: false }, (res) => {
 
     // console.log(news);
     //将数据写入文件中
-    fs.writeFile("./baidu1.json", JSON.stringify(news), function (err, data) {
+    fs.writeFile("./baiduHot.json", JSON.stringify(news), function (err, data) {
       if (err) {
         throw err;
       }

@@ -28,7 +28,7 @@ https.get('https://movie.douban.com/top250', function (res) {
         })
         // console.log(allFiles);
         //将数据写入文件中
-        fs.writeFile('./files.json', JSON.stringify(allFiles), function (err, data) {
+        fs.writeFile('./douban.json', JSON.stringify(allFiles), function (err, data) {
             if (err) {
                 throw err
             }
