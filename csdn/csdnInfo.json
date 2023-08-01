@@ -1,142 +1,142 @@
 [
   {
+    "title": "都2023年了还不会Node.js爬虫？快学起来！",
+    "desc": "爬虫（Web Crawler）是一种自动化程序，可以在互联网上自动抓取网页，并从中提取有用的信息。爬虫可以模拟人类浏览器的行为，自动访问网站、解析网页、提取数据等。通俗来说，爬虫就像是一只蜘蛛，它会沿着网页上的链接不断爬行，把整个网站的内容都爬取下来。这样，我们就可以从大量的网页中获取到我们需要的数据。动态页面：动态页面是指页面内容是通过 JavaScript 或者其他脚本语言动态生成的页面，这种页面往往需要使用浏览器来执行脚本才能获取到完整的页面内容，因此比较难以爬取。",
+    "time": "发布博客 2023.07.28 ·",
+    "read": "273",
+    "favour": "1 点赞 ·"
+  },
+  {
     "title": "听说最近ChatGPT很火？我来整个废话版ChatGPT！",
     "desc": "废话版ChatGPT 的功能是能根据语料库的配置和用户输入的规则，随机生成一篇可长可短的文本，里面的内容语句通顺，但是废话连篇。",
     "time": "发布博客 2023.07.03 ·",
-    "read": "65 阅读 ·",
+    "read": "83",
     "favour": "1 点赞 ·"
   },
   {
     "title": "带你手摸手从零开始撸一个脚手架",
     "desc": "脚手架是我们经常使用的工具，也是团队提效的重要手段，所以系统性的掌握脚手架相关知识，对前端开发者来说是非常重要的。站在学习的角度，我们创建项目如果只是使用脚手架，我们永远不知道如何搭建一个项目。👌这篇文章将手摸手教你撸一个属于自己的脚手架！",
     "time": "发布博客 2023.06.19 ·",
-    "read": "124 阅读 ·",
+    "read": "128",
     "favour": "0 点赞 ·"
   },
   {
     "title": "看完这个还不会 Canvas，请你吃瓜～",
     "desc": "Canvas 在 MDN 中是这样定义的：Canvas 只是一个画布，本身并不具有绘图的能力，绘图必须使用 JavaScript 等脚本语言。 Canvas 标签允许JavaScript 脚本语言动态渲染位图像。它创建出了一个可绘制区域，JavaScript 代码可以通过一套绘图功能的 API 访问该区域，从而生成动态的图形。简单来说，我们可以认为 Canvas 标签只是一个矩形的画布。JavaScript 就是画笔，负责在画布上画画。",
     "time": "发布博客 2023.05.30 ·",
-    "read": "91 阅读 ·",
+    "read": "95",
     "favour": "1 点赞 ·"
   },
   {
     "title": "十五分钟带你学会 Electron",
     "desc": "Electron 是一种基于 Node.js 和 Chromium 开发的开源框架，用于构建跨平台桌面应用程序。Electron 提供了许多跨平台的功能，例如窗口管理、菜单、对话框和托盘图标等。它还可以轻松地与 Node.js 模块进行集成，以便开发人员可以使用已有的 Node.js 生态系统中的库和工具。这使得 Electron 非常适合开发具有丰富用户界面和本地操作系统集成的桌面应用程序。",
     "time": "发布博客 2023.04.19 ·",
-    "read": "1564 阅读 ·",
+    "read": "1589",
     "favour": "0 点赞 ·"
   },
   {
     "title": "十五分钟带你学会 Docker",
     "desc": "在谈 Docker 之前，我们先回想下搭建服务的过程，无论是搭建后端服务，还是爬虫等，我们首先得在本机上配置语言相关的环境，如编译器，变量环境等等，有时候还得下载对应的数据库。反正就是需要一系列的环境准备，经常配置个老半天的还可能被某个步骤卡住了。在本机开发完成，需要部署线上环境的时候，往往又得跑一遍相同环境配置，因为计算机环境不同，配置也并不会一帆风顺。明明在我本机上这样可行的，但是在他人机器上却不行了。",
     "time": "发布博客 2023.04.09 ·",
-    "read": "642 阅读 ·",
+    "read": "648",
     "favour": "0 点赞 ·"
   },
   {
     "title": "函数式编程",
     "desc": "什么是纯函数？对于相同的输入，总是会得到相同的输出在执行过程中没有语义上可观察的副作用。什么是副作用？如果一个函数除了计算之外，还对它的执行上下文、执行宿主等外部环境造成了一些其它的影响，那么这些影响就是所谓的”副作用”。看几个例子🌰：下面这个add()函数不是一个纯函数，因为它违背了对于相同的输入，总是会得到相同的输出。只要在全局作用域上改变a和b的值，那么这个函数执行后就没办法得到相同的输出。简单的改造后，add对于相同的输入，总是会得到相同的输出：对于相同的a和b来说，它们的和总是相等的✅。",
     "time": "发布博客 2023.03.16 ·",
-    "read": "327 阅读 ·",
+    "read": "333",
     "favour": "1 点赞 ·"
   },
   {
     "title": "Angular 面试题",
     "desc": "Angular 是一个开放源代码的前端 Web 框架。它是最流行的 JavaScript 框架之一，主要由 Google 维护。它提供了一个轻松开发基于 Web 的应用程序的平台，并使前端开发人员能够管理跨平台应用程序。它集成了强大的功能，例如声明性模板，依赖项注入以及各种其他使开发路径更流畅的最佳实践。Angular 通常用于表示单页应用程序的 SPA 的开发。Angular 提供了一组现成的模块，可简化单页应用程序的开发。",
     "time": "发布博客 2023.02.06 ·",
-    "read": "987 阅读 ·",
+    "read": "1002",
     "favour": "2 点赞 ·"
   },
   {
     "title": "webpack学习笔记",
     "desc": "webpack 是一个打包工具，他的宗旨是一切静态资源皆可打包。",
     "time": "发布博客 2023.02.02 ·",
-    "read": "271 阅读 ·",
+    "read": "281",
     "favour": "2 点赞 ·"
   },
   {
     "title": "前端调试入门",
     "desc": "调试其实是非常重要的开发的通用型的能力，而这往往被大多数开发人员忽略。代码在某个平台运行，把运行时的状态通过某种方式暴露出来，传递给开发工具做 UI 的展示和交互，辅助开发者排查问题、梳理流程、了解代码运行状态等。某个平台，可以是浏览器、Node.js、Electron、小程序等任何能执行 JS 代码的平台暴露出的运行时状态，可能是调用栈、执行上下文，或者 DOM 的结构，组件的状态等暴露出这些数据的方式一般是通过基于 WebSocket 的调试协议。",
     "time": "发布博客 2022.09.29 ·",
-    "read": "1438 阅读 ·",
+    "read": "1470",
     "favour": "3 点赞 ·"
   },
   {
     "title": "《给程序员的职场情商课》读书笔记",
     "desc": "职场上的困境，大多数时候不是由于技能水平、代码质量，而是在于无法处理身边复杂繁琐的小事、忙碌又头痛的人际关系。职场的本质在哪里不知道，但是看清本质的 “快捷方式”，几乎一定是情商。情商不足的表现：​\t职场有职场的规则与价值观，无论你再有才华，持才傲物就是职场大忌​\t请不要滥用自己的 “幽默”，给幽默增加一点深度，过犹不及​\t不是不要抱怨，而是不要停留在抱怨，积极面对困境​\t老实人本身没问题，但是职场中这些所谓的 “老实” 反而成为了限制自身发展的 “缺点”程序员需要的情商其实是对于人际关系问题的处理....",
     "time": "发布博客 2022.06.18 ·",
-    "read": "345 阅读 ·",
+    "read": "349",
     "favour": "4 点赞 ·"
   },
   {
     "title": "Socket.IO 初探",
     "desc": "WebSocket随着 web 技术的发展，使用场景和需求也越来越复杂，客户端不再满足于简单的请求得到状态的需求实时通讯越来越多应用于各个领域HTTP 是最常用的客户端与服务端通信技术，但 HTTP 通信只能由客户端发起，无法及时获取服务端的数据改变只能依靠定期轮询来获取最新的状态。时效性无法保证，同时更多的请求也会增加服务器的负担 技术应运而生 使得客户端和服务器之间的数据交换变得更加简单，允许服务端主动向客户端推送数据在  中，浏览器和服务器只需要完成一次握手，两者之间就直接可以创建持久性的连接...",
     "time": "发布博客 2022.06.12 ·",
-    "read": "609 阅读 ·",
+    "read": "611",
     "favour": "1 点赞 ·"
   },
   {
     "title": "也许是全网最全的 Angular 新手入门指南",
     "desc": "文章目录Angular概述Angular程序架构Angular优势@angular/cli脚手架文件加载顺序项目目录结构Angular模块@NgModule 装饰器内置模块自定义模块模块的tipsAngular组件@Component 元数据数据绑定脏值检测父子组件通讯投影组件Angular指令内置属性型指令内置结构型指令指令事件样式绑定Angular生命周期Angular路由路由基本配置激活路由路由参数路由懒加载Angular服务@Injectable()装饰器依赖注入Angular 管道内置管道自定义管",
     "time": "发布博客 2022.05.22 ·",
-    "read": "7418 阅读 ·",
+    "read": "7471",
     "favour": "33 点赞 ·"
   },
   {
     "title": "RxJS——异步数据流的响应式编程库（适合新手入门）",
     "desc": "文章目录RxJS概述Redux VS RxJSRxJS核心概念解析热观察和冷观察merge/combine合流RXJS6 的变化RxJS概述RxJS 全称 Reactive Extensions for JavaScriptRxJS 结合了函数式编程、观察者模式（例如 DOM EventListener）、迭代器模式（例如 ES6 Iterater）RxJS 官方是这样说的: Think of RxJS as Lodash for events. 把 RxJS 想像成针对 events 的 loda",
     "time": "发布博客 2022.05.13 ·",
-    "read": "8948 阅读 ·",
+    "read": "9015",
     "favour": "12 点赞 ·"
   },
   {
     "title": "2022春招Web前端高频面试题（自用，附答案）",
     "desc": "文章目录JS数据类型null 和 undefined 的区别？数据类型判断方法如何实现 copy 一个数组深拷贝和浅拷贝在内存上的区别JQuery 和 Vue 的区别和各自的优点请问定位布局 position 属性有哪些取值？请问你了解浮动布局 float 属性吗盒模型请问 BFC 布局有哪些特点、触发条件以及实际应用CSS 选择器以及优先级说一下原型链，原型对象this指向call apply bind 区别/ 改变 this 指向的方法详细说一下闭包和箭头函数，闭包和箭头函数分别解决了什么问题？HTML",
     "time": "发布博客 2022.04.30 ·",
-    "read": "2063 阅读 ·",
+    "read": "2067",
     "favour": "9 点赞 ·"
   },
   {
     "title": "耗时一个月，React 知识点万字大总结（超全超基础）",
     "desc": "React特点React是一个将数据渲染为 HTML 视图 的 js 库简单看来，React 框架主要功能体现在前端 UI 页面的渲染，包括性能优化以及操作简化等等方面。站在 mvc 框架的角度来看，React 操作 view 层的功能实现。采用组件化模式、声明式编码、函数式编程，提高开发效率和组件复用性它遵循从高阶组件到低阶组件的单向数据流。在 React Native 中可以用 react 预发进行安卓、ios 移动端开发使用虚拟 dom 和 diff 算法，尽量减少与真实 dom 的交互",
     "time": "发布博客 2022.04.29 ·",
-    "read": "4223 阅读 ·",
+    "read": "4298",
     "favour": "22 点赞 ·"
   },
   {
     "title": "React + TailwindCSS + Vite 实现响应式网站",
     "desc": "项目配置首先yarn create vite创建 Vite 项目然后写入项目名称、选择框架、选择语言项目创建完成，接下来 cd 进去运行 yarn add -D tailwindcss postcss autoprefixer  安装``tailwindcss`依赖接下来 npx tailwindcss init -p 创建 tailwindcss 和 postcss 的 config 文件用 code .用vscode打开项目先修改tailwind.config.js配置文件module.e",
     "time": "发布博客 2022.04.28 ·",
-    "read": "2023 阅读 ·",
+    "read": "2111",
     "favour": "1 点赞 ·"
   },
   {
     "title": "记录一次 create-react-app 构建项目失败",
     "desc": "有半个月没用react了，今天在使用create-react-app创建项目时，当输入:create-react-app train-ticket控制台报了：You are running `create-react-app` 5.0.0, which is behind the latest release (5.0.1).We no longer support global installation of Create React App.Please remove any globa",
     "time": "发布博客 2022.04.26 ·",
-    "read": "527 阅读 ·",
+    "read": "532",
     "favour": "3 点赞 ·"
   },
   {
     "title": "TypeScript重构axios库",
     "desc": "需求分析在浏览器端使用 XMLHttpRequest 对象通讯支持 Promise API支持请求和响应的拦截器支持请求数据和响应数据的转换支持请求的取消JSON 数据的自动转换客户端防止 XSRF此外，还会有一些 axios 库支持的一些其它的 feature。初始化项目使用TypeScript library starter脚手架工具先通过 git clone 把项目代码拉到 ts-axios 目录，然后运行 npm install 安装依赖，并且给项目命名。生成的目录结构如",
     "time": "发布博客 2022.04.25 ·",
-    "read": "1164 阅读 ·",
+    "read": "1173",
     "favour": "4 点赞 ·"
   },
   {
     "title": "React16.4简书项目",
     "desc": "安装启动npm install -g create-react-appcreate-react-app jianshucd jianshunpm startHeader组件布局安装 styled-components在 styled-components 使用 injectGlobal 注入全局reset.css注意：在 v4 中，injectGlobal 被移除，并被 createGlobalStyle 取代。若报错，把 injectGlobal 改为 createGlobalStyle",
     "time": "发布博客 2022.04.09 ·",
-    "read": "780 阅读 ·",
-    "favour": "2 点赞 ·"
-  },
-  {
-    "title": "Python进阶",
-    "desc": "模块与包模块与包在 Python 当中使用得不可谓不频繁，Python 之所以代码量少、开发速度快，模块与包占据了非常大的原因，这也是进阶爬虫、数据分析、web 开发等方向必须掌握的技能。模块模块指的是 Python 的程序文件（源文件），模块的文件名就是模块名加上.py，里面包含了 Python 对象定义和 Python 语句，模块包含了定义函数、类和执行代码等等，一般情况下不要去修改模块，以免模块失效。Python 中允许导入的形式来进行模块调用，Python 中的模块也是对象，模块中定义的所有",
-    "time": "发布博客 2022.02.28 ·",
-    "read": "558 阅读 ·",
-    "favour": "0 点赞 ·"
+    "read": "784",
+    "favour": "3 点赞 ·"
   }
 ]

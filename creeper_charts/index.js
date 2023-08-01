@@ -1,9 +1,9 @@
-[
-    {
-        "rank": "1",
-        "title": "一个处女座的程序猿",
-        "fans": "1012728"
-    },
+const articles = [
+    // {
+    //     "rank": "1",
+    //     "title": "一个处女座的程序猿",
+    //     "fans": "1012728"
+    // },
     {
         "rank": "2",
         "title": "AI视觉网奇",
@@ -125,3 +125,32 @@
         "fans": "272117"
     }
 ]
+
+const data = articles.map(item => ({
+    name: item.title,
+    value: item.fans
+}));
+
+// 创建 Echarts 实例
+const chart = echarts.init(document.getElementById('chart'));
+
+// 设置图表配置项
+chart.setOption({
+  title: {
+    text: '作者总榜粉丝数统计'
+  },
+  tooltip: {},
+  xAxis: {
+    data: data.map(item => item.name),
+    axisLabel: {
+        rotate: -60
+    }
+  },
+  yAxis: {},
+  series: [{
+    name: '粉丝数',
+    type: 'bar',
+    data: data.map(item => item.value),
+    label: {show: true,position: 'top'}
+  }]
+});

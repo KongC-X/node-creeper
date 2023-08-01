@@ -20,7 +20,7 @@ https.get(url, { rejectUnauthorized: false }, (res) => {
       const title = $('h4', this).text().trim();
       const desc = $('.blog-list-content', this).text().trim();
       const time = $('.view-time-box', this).text().trim();
-      const read = $('.view-num', this).text().trim();
+      const read = $('.view-num', this).text().trim().match(/\d+/g).join("");
       const favour = $('.give-like-num', this).text().trim();
       courses.push({ title, desc, time, read, favour });
     });

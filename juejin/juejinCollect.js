@@ -38,10 +38,10 @@ const crawlPage = "https://juejin.cn/hot/collected-articles/6809637767543259144"
             const read = ele.querySelector(readSelector).innerText;
 
             list.push({
-                '排名': rank,
-                '标题': title,
-                '作者': author,
-                '浏览量': read,
+                'rank': rank,
+                'title': title,
+                'author': author,
+                'read': read,
             });
         });
         return list;

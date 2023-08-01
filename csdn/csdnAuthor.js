@@ -30,9 +30,9 @@ const crawlPage = "https://blog.csdn.net/rank/list/total";
             const title = ele.querySelector(".total-box dd a").innerText;
             const fans = ele.querySelector(".total-box dt span:nth-child(1)").innerText;
             list.push({
-                '排名': rank,
-                '作者': title,
-                '粉丝': fans,
+                rank,
+                title,
+                fans,
             });
         });
         return list;

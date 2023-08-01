@@ -30,9 +30,9 @@ const crawlPage = "https://blog.csdn.net/rank/list";
             const title = ele.querySelector(".hosetitem-title a").innerText;
             const author = ele.querySelector(".hostitem-item-right .name").innerText;
             list.push({
-                '排名': rank,
-                '标题': title,
-                '作者': author,
+                rank,
+                title,
+                author,
             });
         });
         return list;
