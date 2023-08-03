@@ -22,16 +22,37 @@ const crawlPage = "https://blog.csdn.net/rank/list/total";
     // 加载目标页，在 500ms 内没有任何网络请求才算加载完
     await page.goto(crawlPage, { waitUntil: "networkidle0" });
 
+    // 模拟滚动到页面底部
+    await page.evaluate(async () => {
+        await new Promise((resolve) => {
+            let totalHeight = 0;
+            const distance = 200;
+            const timer = setInterval(() => {
+                const scrollHeight = document.body.scrollHeight;
+                window.scrollBy(0, distance);
+                totalHeight += distance;
+
+                if (totalHeight >= scrollHeight) {
+                    clearInterval(timer);
+                    resolve();
+                }
+            }, 200);
+        });
+    });
+
+    // 等待列表加载完成
+    await page.waitForSelector('.floor-rank-total');
+
     // 在无头浏览器页面dom环境，获取页面数据
     const authorList = await page.evaluate(() => {
         const list = [];
-        document.querySelectorAll(".floor-rank-total .floor-rank-total-item").forEach((ele) => {
-            const rank = ele.querySelector(".total-content .number").innerText;
-            const title = ele.querySelector(".total-box dd a").innerText;
-            const fans = ele.querySelector(".total-box dt span:nth-child(1)").innerText;
+        document.querySelectorAll(".floor-rank-total .floor-rank-total-item").forEach(async(ele) => {
+            const rank = await ele.querySelector(".total-content .number").innerText;
+            const author = await ele.querySelector(".total-box dd a").innerText;
+            const fans = await ele.querySelector(".total-box dt span:nth-child(1)").innerText;
             list.push({
                 rank,
-                title,
+                author,
                 fans,
             });
         });
