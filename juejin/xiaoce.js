@@ -53,10 +53,10 @@ const crawlPage = "https://juejin.cn/course";
             const author = await ele.querySelector(".book-info .author .name").innerText;
             const price = await ele.querySelector(".book-info .other .origin-price").innerText;
             list.push({
-                '小册名称': title,
-                '小册简介': desc,
-                '小册作者': author,
-                '小册价格': price,
+                title,
+                desc,
+                author,
+                price,
             });
         });
         return list;
