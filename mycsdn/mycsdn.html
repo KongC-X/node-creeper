@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSDN个人数据</title>
+</head>
+<body>
+	<div id="data"></div>
+
+	<script>
+		const jsonData = '{"name": "萌萌哒の瑞萌萌","data": {"allReadNum": "316,759","articleNum": "42","rank": "8,327","fans": "591"},"achievement": {"like": "获得1,337次点赞","comment": "内容获得125次评论","favorite": "获得9,821次收藏","share": "代码片获得100次分享"}}';
+		const data = JSON.parse(jsonData);
+
+		const dataDiv = document.getElementById("data");
+		dataDiv.innerHTML = `姓名：${data.name}<br><br>总阅读数：${data.data.allReadNum}<br>文章数：${data.data.articleNum}<br>排名：${data.data.rank}<br>粉丝数：${data.data.fans}<br><br>成就：<br>点赞数：${data.achievement.like}<br>评论数：${data.achievement.comment}<br>收藏数：${data.achievement.favorite}<br>分享数：${data.achievement.share}`;
+	</script>
+</body>
+</html>

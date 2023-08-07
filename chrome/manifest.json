@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "CSDN个人数据",
+    "version": "1.0",
+    "description": "CSDN个人数据展示",
+    "permissions": [
+        "activeTab"
+      ],
+    "browser_action": {
+        "default_title": "CSDN个人数据",
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "128": "icon/icon128.png"
+        }
+    }
+}
