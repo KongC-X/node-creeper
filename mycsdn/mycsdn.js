@@ -8,8 +8,8 @@ const crawlPage = "https://blog.csdn.net/weixin_46232841?spm=1000.2115.3001.5343
 
 // */10 * * * * *：每隔10秒钟执行一次
 // 0 0 * * * *：每小时的0分0秒执行一次
-// 创建一个定时任务，每隔三小时执行一次
-let job = schedule.scheduleJob('0 0 */3 * * *',// 网页爬虫
+// 创建一个定时任务，每隔1小时执行一次
+let job = schedule.scheduleJob('*/10 * * * * *',// 网页爬虫
 async function crawler() {
     //创建实例
     const browser = await puppeteer.launch({
