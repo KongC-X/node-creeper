@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     xhr.send();
 
   // 设置插件图标
-  chrome.browserAction.setIcon({ path: "icon/icon128.png" });
+  // chrome.browserAction.setIcon({ path: "icon/icon128.png" });
 
   // 设置插件标题
   chrome.browserAction.setTitle({ title: "CSDN个人数据展示" });
